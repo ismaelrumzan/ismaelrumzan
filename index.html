@@ -152,7 +152,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="img/portfolio/safe.png"
+                            <img class="img-fluid"
+                                src="img/portfolio/arabicapps.png"
                                 alt="">
                         </a>
                     </div>
@@ -167,7 +168,7 @@
                                 </div>
                             </div>
                             <img class="img-fluid"
-                                src="img/portfolio/submarine.png" alt="">
+                                src="img/portfolio/myshawarma.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -200,13 +201,6 @@
                             ubiquitous user experiences.</p>
                     </div>
                 </div>
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light"
-                        href="mailto:ismael.rumzan@gmail.com">
-                        <i class="fa fa-envelope mr-2"></i>
-                        Contact him
-                    </a>
-                </div>
             </div>
         </section>
 
@@ -224,13 +218,15 @@
                         <!-- The form should work on most web servers, but if
                             the form is not working you may need to configure
                             your web server differently. -->
-                        <form name="sentMessage" id="contactForm"
-                            novalidate="novalidate">
+
+                        <form method="POST"
+                            action="https://formspree.io/ismael.rumzan@gmail.com">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group
                                     controls mb-0 pb-2">
                                     <label>Name</label>
                                     <input class="form-control" id="name"
+                                        name="name"
                                         type="text" placeholder="Name"
                                         required="required"
                                         data-validation-required-message="Please
@@ -243,7 +239,8 @@
                                     controls mb-0 pb-2">
                                     <label>Email Address</label>
                                     <input class="form-control" id="email"
-                                        type="email" placeholder="Email Address"
+                                        name="email" type="email"
+                                        placeholder="Email Address"
                                         required="required"
                                         data-validation-required-message="Please
                                         enter your email address.">
@@ -253,20 +250,9 @@
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group
                                     controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone"
-                                        type="tel" placeholder="Phone Number"
-                                        required="required"
-                                        data-validation-required-message="Please
-                                        enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group
-                                    controls mb-0 pb-2">
                                     <label>Message</label>
                                     <textarea class="form-control" id="message"
+                                        name="message"
                                         rows="5" placeholder="Message"
                                         required="required"
                                         data-validation-required-message="Please
@@ -274,11 +260,10 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                            <br>
                             <div id="success"></div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary
-                                    btn-xl" id="sendMessageButton">Send</button>
+                                    btn-xl">Send</button>
                             </div>
                         </form>
                     </div>
@@ -292,48 +277,23 @@
                 <div class="row">
                     <div class="col-md-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">2215 John Daniel Drive
-                            <br>Clark, MO 65243</p>
+                        <p class="lead mb-0">Amman, Jordan | Canada | Mauritius</p>
                     </div>
                     <div class="col-md-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <h4 class="text-uppercase mb-4">Linked In</h4>
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item">
                                 <a class="btn btn-outline-light btn-social
-                                    text-center rounded-circle" href="#">
-                                    <i class="fa fa-fw fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-light btn-social
-                                    text-center rounded-circle" href="#">
-                                    <i class="fa fa-fw fa-google-plus"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-light btn-social
-                                    text-center rounded-circle" href="#">
-                                    <i class="fa fa-fw fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-light btn-social
-                                    text-center rounded-circle" href="#">
+                                    text-center rounded-circle"
+                                    href="https://www.linkedin.com/in/ismaelrumzan/">
                                     <i class="fa fa-fw fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn btn-outline-light btn-social
-                                    text-center rounded-circle" href="#">
-                                    <i class="fa fa-fw fa-dribbble"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">Freelance is a free to use, open
-                            source Bootstrap theme created by
+                        <h4 class="text-uppercase mb-4">Design with</h4>
+                        <p class="lead mb-0">Freelancer Bootstrap Theme
                             <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
@@ -342,7 +302,7 @@
 
         <div class="copyright py-4 text-center text-white">
             <div class="container">
-                <small>Copyright &copy; Your Website 2018</small>
+                <small>Copyright &copy; Cordoba Digital Media</small>
             </div>
         </div>
 
@@ -577,24 +537,60 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-secondary
-                                    text-uppercase mb-0">Project
-                                    Name</h2>
+                                    text-uppercase mb-0">Learn Arabic Mobile
+                                    Apps</h2>
                                 <hr class="star-dark mb-5">
-                                <img class="img-fluid mb-5"
-                                    src="img/portfolio/safe.png"
-                                    alt="">
-                                <p class="mb-5">Lorem ipsum dolor
-                                    sit amet,
-                                    consectetur adipisicing elit.
-                                    Mollitia neque
-                                    assumenda ipsam nihil, molestias
-                                    magnam,
-                                    recusandae quos quis inventore
-                                    quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit
-                                    soluta, eos
-                                    quod consequuntur itaque. Nam.</p>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <img class="img-fluid mb-5"
+                                                src="img/portfolio/arabicapps_01.png"
+                                                alt="">
+                                        </div>
+                                        <div class="col-sm">
+                                            <img class="img-fluid mb-5"
+                                                src="img/portfolio/arabicapps_02.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="mb-5">
+                                    <h3>Four iOS and Android mobile apps for
+                                        Arabic learning</h3>
+                                    <p>Arabic Letters: You will find a
+                                        collection of video animations that
+                                        explain the point of articulation for
+                                        the pronunciation of each Arabic letter.</p>
+                                    <p>Arabic Compliments: You will find a
+                                        collection of common sayings related to
+                                        different life situation in Arabic with
+                                        English translation. For each saying,
+                                        you will have the Arabic text, English
+                                        translation and audio of the Arabic</p>
+                                    <p>Arabic Anywhere: Connections is a
+                                        thirty-five part audio course that gives
+                                        you the essential tools to initiate the
+                                        first words of a conversation in Arabic.</p>
+                                    <p>Classical Arabic Grammar: The Classical
+                                        Arabic Crash Course is an introductory
+                                        course in Arabic grammar and morphology
+                                        for anyone interested in being able to
+                                        read and understand the Qur’an.</p>
+                                    <h4>Role: JavaScript(JQuery Mobile &
+                                        PhoneGap) Engineer</h4>
+                                </p>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <img class="img-fluid mb-5"
+                                            src="img/portfolio/arabicapps_03.png"
+                                            alt="">
+                                    </div>
+                                    <div class="col-sm">
+                                        <img class="img-fluid mb-5"
+                                            src="img/portfolio/arabicapps_04.png"
+                                            alt="">
+                                    </div>
+                                </div>
                                 <a class="btn btn-primary btn-lg
                                     rounded-pill
                                     portfolio-modal-dismiss"
@@ -619,24 +615,21 @@
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
                                 <h2 class="text-secondary
-                                    text-uppercase mb-0">Project
-                                    Name</h2>
+                                    text-uppercase mb-0">Augmented Reality Game</h2>
                                 <hr class="star-dark mb-5">
                                 <img class="img-fluid mb-5"
-                                    src="img/portfolio/submarine.png"
+                                    src="img/portfolio/myshawarma.png"
                                     alt="">
-                                <p class="mb-5">Lorem ipsum dolor
-                                    sit amet,
-                                    consectetur adipisicing elit.
-                                    Mollitia neque
-                                    assumenda ipsam nihil, molestias
-                                    magnam,
-                                    recusandae quos quis inventore
-                                    quisquam
-                                    velit
-                                    asperiores, vitae? Reprehenderit
-                                    soluta, eos
-                                    quod consequuntur itaque. Nam.</p>
+                                <p class="mb-5">
+                                    <p>An Arabic quiz detective game for
+                                        students of Arabic using the Zappar App</p>
+                                    <iframe
+                                        src="https://player.vimeo.com/video/263819546"
+                                        width="640" height="360" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <h4>Role: JavaScript-based language Engineer
+                                        and usability testing</h4>
+                                </p>
                                 <a class="btn btn-primary btn-lg
                                     rounded-pill
                                     portfolio-modal-dismiss"
