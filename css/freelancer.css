@@ -208,6 +208,12 @@ header.masthead h2 {
   margin-bottom: 15px;
 }
 
+.portfolio-item p {
+  font-size: 0.8em;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -224,7 +230,12 @@ header.masthead h2 {
   .portfolio-item
   .portfolio-item-caption
   .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.caption {
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 576px) {
